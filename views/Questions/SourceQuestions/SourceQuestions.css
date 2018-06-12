@@ -1,0 +1,248 @@
+/* h5{
+    margin: 0px;
+    margin-top: 10px;
+} */
+
+
+.example-enter {
+    opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+    opacity: 1;
+}
+
+.example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+}
+
+
+.expDoc{
+    display: inline-block;
+    padding-left: 20px;
+}
+.expDoc i{
+    padding-right: 5px;
+}
+.pagicounter{
+    line-height: 55px;
+}
+.import-btn{
+    margin-right: 10px;
+}
+
+.leftedit{
+    width: 100%;
+    height: 100%;
+    background: #2ca8ff;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    position: relative;
+}
+.leftedit.success {
+    background: #3b82b3;
+}
+.leftedit .form-check{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.leftedit .form-check .form-check-label{
+    padding-left: 29px;
+}
+.top-inner{
+    padding: 0 15px;
+}
+
+.questions-wrap .card .card-body{
+    padding: 0;
+}
+.questions-wrap .card .card-body .right-panel{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.leftedit .form-check .form-check-sign::after{
+    color: #ffffff;
+}
+
+.editQuestion{
+    position: absolute;
+    width: 35px;
+    height: 34px;
+    text-align: center;
+    color: #fff;
+    z-index: 999;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    background: #0d71b7;
+    padding: 2px 5px;
+    border: 1px solid #096cb1;
+    border-radius: 50%;
+}
+.editQuestion i{
+    font-size: 15px;
+    color: #fff;
+    line-height: 29px;
+}
+
+
+.options-wrap:after,
+.options-wrap:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.left-radio{
+    width: 4%;
+    float: left;
+}
+.right-inp{
+    width: 96%;
+    float: right;
+}
+.form-check .form-check-label{
+    margin-top: 3px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .questionList .top-inner{
+        padding: 0px;
+    }
+    .leftedit{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 4px;
+        height: 56px;
+    }
+    .leftedit .form-check{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .leftedit .form-check{
+        position: relative;
+        top: 0;
+        left: 0;
+        padding-left: 15px;
+        transform: none;
+    }
+    .editQuestion{
+        position: relative;
+        float: right;
+        bottom: 10px;
+        left: -15px;
+        right: 0;
+        transform: none;
+        z-index: 9;
+    }
+    .questions-wrap .card .card-body .right-panel{
+        padding: 15px 30px;
+    }
+    .questionList .badge{
+        margin-bottom: 10px;
+    }
+    .expDoc{
+        font-size: 12px;
+    }
+    .left-radio{
+        width: 6%;
+    }
+    .right-inp{
+        width: 94%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .questionList .top-inner button{
+        float: left;
+    }
+    .questionList .top-inner a{
+        float: right;
+    }
+    .questionList .card.top-btn-grp,
+    .questionList .card.top-btn-grp .card-body,
+    .questionList .top-inner{
+        overflow: hidden;
+        padding-bottom: 5px;
+    }
+    .questionList h5,
+    .v-questions-wrap h5{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .q-paginate.row {
+        font-size: 11px;
+    }
+    .q-paginate .rootfirst{
+        display: none;
+    }
+    .q-paginate .rootlast{
+        display: none;
+    }
+    .q-paginate.row button{
+        padding: 11px 11px;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .left-radio {
+        width: 11%;
+    }
+    .right-inp {
+        width: 89%;
+    }
+    .questionList h5,
+    .v-questions-wrap h5{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .questionList .top-inner button{
+        float: none;
+    }
+    .questionList .top-inner a{
+        float: none;
+    }
+    .questionList .top-inner{
+        text-align: center !important;
+    }
+    .questions-wrap button.answerbtn{
+        width: 100%;
+    }
+    .left-radio {
+        width: 9%;
+    }
+    .right-inp {
+        width: 85%;
+    }
+    .questionList h5,
+    .v-questions-wrap h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    .form-check .form-check-label{
+        line-height: 20px;
+    }
+}
+
+
+
+
+

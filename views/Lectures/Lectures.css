@@ -1,0 +1,32 @@
+.lecTitle{
+    margin: 0px 0 10px;
+    font-size: 20px;
+}
+.date-area:after,
+.date-area:before{
+    content: '';
+    display: block;
+    clear: both;
+}
+.date-area{
+    margin: 15px 0;
+}
+.date-area p{
+    font-size: 12px;
+    margin: 0px;
+}
+.date-area p:first-child{
+    width: 50%;
+    float: left;
+}
+.date-area p:last-child{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.date-area.last p:last-child{
+    width: 100%;
+    float: none;
+    text-align: left;
+}
+
